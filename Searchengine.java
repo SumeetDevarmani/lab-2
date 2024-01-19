@@ -4,7 +4,7 @@ import java.net.URI;
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
-    listofwords = new String[]{Riddhi, Aditi, Kevin, Kevin1, Mehdi}
+    listofwords = new String[]{Riddhi, Aditi, Kevin, Kevin1, Mehdi};
 
 
     public String handleRequest(URI url) {
