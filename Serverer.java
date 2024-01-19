@@ -39,9 +39,9 @@ class ServerHttpHandler implements HttpHandler {
     }
 }
 
-public class Server {
+public class Serverer {
     public static void start(int port, URLHandler handler) throws IOException {
-        HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
+        HttpServer serverer = HttpServer.create(new InetSocketAddress(port), 0);
 
         //create request entrypoint
         server.createContext("/", new ServerHttpHandler(handler));
